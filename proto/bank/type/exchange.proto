@@ -15,3 +15,7 @@ message ExchangeRateResponse {
   double rate = 3;
   string timestamp = 4;
 }
+
+message TestMe {
+  uint32 id = 1;
+}
