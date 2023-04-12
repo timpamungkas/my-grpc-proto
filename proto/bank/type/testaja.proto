@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package bank;
+
+option go_package = "github.com/timpamungkas/my-grpc-proto/protogen/go/bank";
+
+message SomeTestMessage {
+  string fullnamefortest = 1;
+}
