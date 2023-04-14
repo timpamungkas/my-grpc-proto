@@ -15,5 +15,6 @@ require (
 	golang.org/x/text v0.8.0 // indirect
 )
 
-// don't update minor
-retract v0.1.0
+retract (
+	v0.1.0
+)
