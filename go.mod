@@ -3,7 +3,8 @@ module github.com/timpamungkas/my-grpc-proto
 go 1.20
 
 require (
-	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.15.2
+	google.golang.org/genproto v0.0.0-20230223222841-637eb2293923
 	google.golang.org/grpc v1.54.0
 	google.golang.org/protobuf v1.30.0
 )
@@ -15,6 +16,4 @@ require (
 	golang.org/x/text v0.8.0 // indirect
 )
 
-retract (
-	v0.1.0
-)
+retract v0.1.0
